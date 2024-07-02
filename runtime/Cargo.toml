@@ -70,7 +70,7 @@ pallet-transaction-payment-rpc-runtime-api = { git = "https://github.com/parityt
 
 # Used for runtime benchmarking
 frame-benchmarking = { git = "https://github.com/paritytech/polkadot-sdk.git", tag = "polkadot-v1.9.0", default-features = false, optional = true }
-frame-system-benchmarking = { git = "https://github.com/paritytech/polkadot-sdk.git", tag = "polkadot-v1.9.0", default-features = false, optional = true }
+frame-system-benchmarking = { git = "https://github.com/paritytech/polkadot-sdk.git", tag = "polkadot-v1.13.0", default-features = false, optional = true }
 
 # The pallet in this template.
 pallet-template = { path = "../pallets/template", default-features = false }
